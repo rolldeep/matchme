@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "yaswift"
+version = "0.1.0"
+description = ""
+authors = ["alex"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.109.2"
+aiogram = "^3.3.0"
+redis = "^5.0.1"
+python-telegram-bot = "^20.8"
+uvicorn = {extras = ["standard"], version = "^0.27.1"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
